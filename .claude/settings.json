@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(perl -ne 'if\\(/showreel_section/\\){ my $i=index\\($_,\"showreel_section\"\\); print substr\\($_,$i,1100\\),\"\\\\n\"; }' 'Ariyana Studio - Webflow HTML website template.html')",
+      "Bash(perl -0777 -ne 'my $i=index\\($_,\".mov\"\\); print substr\\($_,$i-260,340\\),\"\\\\n\";' 'Ariyana Studio - Webflow HTML website template.html')",
+      "Bash(perl -0777 -ne 'my $i=index\\($_,\"service%20video%201\"\\); print substr\\($_,$i-160,260\\),\"\\\\n\";' 'Ariyana Studio - Webflow HTML website template.html')",
+      "Bash(git push *)",
+      "Bash(python3 -c \"import PIL; print\\('PIL', PIL.__version__\\)\")"
+    ]
+  }
+}
